@@ -161,7 +161,7 @@ export const ToggleButton = styled(Button)<ToggleProps>`
 	}
 `;
 
-export const LeftToggleButton = styled(ToggleButton)`
+export const LeftToggleButton = styled(ToggleButton)<ToggleProps>`
 	border: none;
 	margin-left: 1rem;
 	border-radius: 0rem 0rem 0rem 1rem;
@@ -181,7 +181,7 @@ export const LeftToggleButton = styled(ToggleButton)`
 	}
 `;
 
-export const RightToggleButton = styled(ToggleButton)`
+export const RightToggleButton = styled(ToggleButton)<ToggleProps>`
 	border-radius: 0rem 1rem 0rem 0rem;
 	border: none;
 	border-color: ${(props) => props.theme.colors.light};
